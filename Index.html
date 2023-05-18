@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="StyleSheet" href="RD.css">
+    <link rel="StyleSheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <title>WEBSITE</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="Index.html"><img class="logo" src="RD_logo.png" alt="RD.TUTORIAL"></a>
+            <div class="nav-link" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#hone">HOME</a></li>
+                    <li><a href="#hone">COURSE</a></li>
+                    <li><a href="#hone">BLOG</a></li>
+                    <li><a href="#hone">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="textbox">
+            <h1>R.D TUTORIAL'S</h1>
+            <h3>Best Qualitiy in Education</h3>
+            <p>Educated Every Student
+                and Expect Excellence.
+            </p>
+            <a class="btn" href="FORM">FORM</a>
+        </div>
+
+    </section>
+
+<h1>COURSES</h1>
+    <section class="course">
+        <div class="Std">
+            <h3>Std. V-X </h3>
+            <img src="Student.jpg" alt="Student">
+            <h5>COURSE DESSCRIPTION</h5>
+            <p>SSC Exam is the pivotal point in student’s life. The result of SSC is the turning point of their academic career. The Choice of College for their selected branch (viz. Science, Commerce and Arts) will be dependent on Std. X result. 
+                There may be sudden pressure on students as well as parents. All parents are not in position to help the child in the subjects like Algebra, Geometry and English like earlier standards.</p>
+
+                <p>interest and marks in subjects of standard V to X will help them decide which field they want to specialise in during their college years and later in their professional lives. 
+                This is the most important year examination-wise as student will be appearing for their Board Exams. Coaching for this year will focus on revising what has been taught earlier and preparing the students thoroughly for their upcoming exams.</p>
+                
+                <p>We, at Pioneer School Education, teach the students each and every topic as per their school syllabus and conduct class test on every topic after its completion.
+                 We insist the students to take parents signature on answer paper so that parents are aware of their child’s progress.</p>
+        </div>
+
+        <div class="Std">
+            <h3>Std. XI-XII </h3>
+            <img class="twl" src="welfare.jpg" alt="Student">
+            <h5>COURSE DESSCRIPTION</h5>
+            <p>SSC Exam is the pivotal point in student’s life. The result of SSC is the turning point of their academic career. The Choice of College for their selected branch (viz. Science, Commerce and Arts) will be dependent on Std. X result. 
+                There may be sudden pressure on students as well as parents. All parents are not in position to help the child in the subjects like Algebra, Geometry and English like earlier standards.</p>
+
+                <p>interest and marks in subjects of standard V to X will help them decide which field they want to specialise in during their college years and later in their professional lives. 
+                This is the most important year examination-wise as student will be appearing for their Board Exams. Coaching for this year will focus on revising what has been taught earlier and preparing the students thoroughly for their upcoming exams.</p>
+                
+                <p>We, at Pioneer School Education, teach the students each and every topic as per their school syllabus and conduct class test on every topic after its completion.
+                 We insist the students to take parents signature on answer paper so that parents are aware of their child’s progress.</p>
+        </div>
+    </section>
+</body>
+
+<!---------------Javascript------------------->
+<script>
+
+var navlinks = document.getElementById("navlinks");
+
+function showMenu(){
+    navlinks.style.right = "0";
+}
+function hideMenu(){
+    navlinks.style.right = "-200px";
+}
+</script>
+</html>
+
